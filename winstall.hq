@@ -3,5 +3,6 @@ sudo curl -L -o /etc/apt/sources.list.d/winehq.list https://github.com/chrissxYT
 curl -L -o whq.key https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add whq.key
 rm whq.key
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 76F1A20FF987672F
 sudo apt update
 sudo apt install wine
