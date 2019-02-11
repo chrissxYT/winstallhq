@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo curl -L -o /etc/apt/sources.list.d/winehq.list -url-
+sudo apt update
+sudo apt install wine
