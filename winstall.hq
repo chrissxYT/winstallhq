@@ -5,4 +5,4 @@ sudo apt-key add whq.key
 rm whq.key
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 76F1A20FF987672F
 sudo apt update
-sudo apt install wine
+sudo apt install wine-staging
