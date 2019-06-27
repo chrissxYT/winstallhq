@@ -4,4 +4,4 @@ sudo add-apt-repository \
 curl -L https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 76F1A20FF987672F
 sudo apt update
-sudo apt install -y wine-staging
+sudo apt install -y wine-staging wine
